@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+</head>
+<body>
+  <style>
+    a {
+    text-decoration: none;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items:center;
+    margin-top: 2%;
+  }
+  
+  .navbar a {
+    color: #e7e7e7;
+  }
+  
+  .navbar .brand {
+    display: block;
+    padding: 0 24px;
+    font-size: 34px;
+    position: fixed;
+  }
+  .navbar .list{
+    position: fixed;
+  }
+  .brand{
+    font-family:cursive;
+    font-weight:bolder;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    margin-left: 60%;
+    position: inherit;
+  }
+  
+  .navbar ul li a {
+    color: #e7e7e7;
+    padding: 24px;
+    display: block;
+  }
+  
+  .navbar ul a:hover,
+  .navbar ul a:focus,
+  .navbar ul .active {
+    background-color:purple;
+    color: black;
+    text-decoration:underline;
+  }
+  body{
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("home.jpg");
+  }
+  .hometext{
+    font-size:500%;
+    margin-left:20%;
+    margin-top: 17%;
+    font-family: cursive;
+    color:pink;
+    text-decoration:underline black;
+  }
+  #aboutimg{
+    margin-left: 70%;
+    display: inline;
+    width: 100px;
+  }
+  #aboutpara{
+    font-size:500%;
+    margin-left:14%;
+    margin-top: 6%;
+    margin-right: 4%;
+    font-family: cursive;
+    color:white;
+    display: inline-block;
+    padding: 10px;
+    font-size: 250%;
+    margin-top: 10px;
+
+  }
+  #aboutlist{
+    margin-left: 20%;
+    font-size: 250%;
+    color:white;
+  }
+  #edu table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+    margin-top: 6%;
+    font-size: 150%;
+}
+#edu td,th{
+    border:2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+#edu th{
+    color:aqua;
+}
+#coursepara{
+    font-size:220%;
+    margin-left:10%;
+    font-family: cursive;
+    color:yellowgreen;
+}
+#contactadd{
+  color:white;
+  font-size: 190%;
+  font-family: cursive;
+}
+#mailnum{
+  color:white;
+  font-size: 170%;
+  font-family: cursive;
+}
+
+  
+  </style>
+    <nav class="navbar">
+        <a class="brand" href="#">PROFILE</a>
+        <ul class="list">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#About">About</a>
+          </li>
+          <li>
+            <a href="#edu">Education</a>
+          </li>
+          <li>
+            <a href="#course">Courses</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <section id="home"><br><br><br>
+        <h1 class="hometext">This is my Portfolio</h1>
+      </section><br><br><br><br><br><br><br><br><br><br><br>
+      <section id="About"><br><br><br><br>
+        <h1 style="font-size: 32px;color: white;font-family:cursive;color:aqua">About Me:<img id="aboutimg" src="Photo3.jpg"></h1>
+        <p id="aboutpara">
+            I am Pradeep Leon.
+            I am from Alavakkottai which is located in Sivagangai district.
+            I am doing undergraduate degree in the stream of Computer Science at 
+            St.Joseph's College(Autonomous), Tiuchirappalli.
+           I am staying at New Hostel in  our College campus.
+        </p>
+        <h1 style="font-size: 32px;color: white;font-family:cursive;color:aqua">Skills</h1>
+        <ul id="aboutlist">
+            <li>Programming languages(Python,c,c++)</li>
+            <li>Tools(MS Word,MS Excel)</li>
+        </ul>
+      </section><br><br><br><br><br><br><br><br><br><br><br>
+      <section id="edu"><br><br><br><br><br><br>
+        <h1 style="font-size: 32px;font-family:cursive;color:aqua">Educational Qualifications:</h1>  
+      <table>
+        <tr>
+            <th>course</th>
+            <th>Institution</th>
+            <th>Mark</th>
+            <th>Passout</th>
+        </tr>
+        <tr>
+            <td>B.Sc.Computer Science</td>
+            <td>St.Joseph's College,Tiruchirappalli</td>
+            <td>CGPA:9.05</td>
+            <td>2025</td>
+        </tr>
+        <tr>
+            <td>Higher Secondary</td>
+            <td>Sacred Heart Hr.Sec.School,Thiruvarangam</td>
+            <td>555/600</td>
+            <td>2022</td>
+        </tr>
+        <tr>
+          <td>SSLC</td>
+          <td>Sacred Heart Hr.Sec.School,Thiruvarangam</td>
+          <td>474/500</td>
+          <td>2020</td>
+      </tr>
+      </table>
+      </section><br><br><br><br><br><br><br><br><br><br><br>
+      <section id="course"><br><br><br><br>
+        <h1 style="font-size: 32px;font-family:cursive;color:aqua">Online Courses</h1> 
+        <p id="coursepara">
+          The following are the courses that I have done through online,
+          <ul style="font-size: 200%;margin-left: 13%;color:brown">
+            <li>HTML Attributes and Tags</li><br>
+            <li>Front End Web Development-HTML</li><br>
+            <li>Python Data Structures</li><br>
+          </ul>
+        </p>
+      </section><br><br><br><br><br><br><br><br><br><br><br>
+      <section id="contact"><br><br><br><br>
+        <h1 style="color:aqua;font-size: 200%;font-family: cursive;">Address</h1>
+        <address id="contactadd">3/151,Indira Nagar,<br>Alavakkottai,<br>Sivagangai.</address>
+        <p id="mailnum">
+          <lable for="email">Email :Pradeepleoni123@gmail.com</lable><br>
+          <lable for="number">Whatsapp :9585327982</lable><br>
+          <lable for="linkedin">LinkedIn:<a href="https://www.linkedin.com/in/pradeep-leon-07a818252/"> PRADEEP LEON I</a></lable>
+        </p>
+      </section><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
+
+
